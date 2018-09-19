@@ -1,0 +1,19 @@
+version: '2.3'
+services:
+  python:
+    build: ./
+    volumes:
+      - ./src:/home/src
+      - /tmp/.X11-unix/:/tmp/.X11-unix/
+    runtime: nvidia
+    environment:
+      - "DISPLAY=$DISPLAY"
+      - "QT_X11_NO_MITSHM=1"
+    ports:
+      - '6006:6006'
+    devices:
+      - /dev/snd
+      - /dev/usb
+    privileged: true
+    working_dir: "/home/src"
+    tty: true
