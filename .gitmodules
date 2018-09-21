@@ -1,0 +1,3 @@
+[submodule "src/yolov3_train/keras-yolo3"]
+	path = src/yolov3_train/keras-yolo3
+	url = https://github.com/qqwweee/keras-yolo3.git
