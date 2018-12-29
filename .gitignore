@@ -1,10 +1,9 @@
 !.gitkeep
 __pycache__
-src/yolov3_train/train/
-src/yolov3_train/yolo.h5
 _Dockerfile
-movie/
-clustering/
-
-src/yolov3_train/croped_data/
 *.h5
+._*
+.DS_Store
+
+src/yolov3_train/train/
+src/yolov3_train/croped_data/

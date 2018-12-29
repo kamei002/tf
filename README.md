@@ -10,6 +10,8 @@ tensorflow deeplerning environment with docker
 
 working directory is src directory
 
+accsess http://localhost:8888 to use jupyter notebook
+
 ## test environment
 
 The test environment is
